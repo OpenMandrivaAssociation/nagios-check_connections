@@ -2,7 +2,7 @@
 
 Name:		nagios-%{up_name}
 Version:	2.1.0
-Release:	%mkrel 2
+Release:	%mkrel 1
 Summary:	A Nagios plugin to check the number of TCP connections
 License:	GPL
 Group:		Networking/Other
@@ -46,3 +46,13 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_connections.cfg
 %{_datadir}/nagios/plugins/check_connections
 
+
+
+%changelog
+* Sun Dec 21 2008 Guillaume Rousse <guillomovitch@mandriva.org> 2.1.0-1mdv2009.1
++ Revision: 317110
+- import nagios-check_connections
+
+
+* Sun Dec 21 2008 Guillaume Rousse <guillomovitch@mandriva.org> 2.1.0-1mdv2009.1
+- first mdv release 
