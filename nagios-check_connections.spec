@@ -2,7 +2,7 @@
 
 Name:		nagios-%{up_name}
 Version:	2.1.0
-Release:	%mkrel 1
+Release:	2
 Summary:	A Nagios plugin to check the number of TCP connections
 License:	GPL
 Group:		Networking/Other
